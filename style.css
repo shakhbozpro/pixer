@@ -1,0 +1,160 @@
+@font-face {
+   font-family: 'Open Sans';
+   font-display: swap;
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/open-sans-v29-latin_cyrillic-regular.woff2') format('woff2'),
+   url('../fonts/open-sans-v29-latin_cyrillic-regular.woff') format('woff');
+}
+
+@font-face {
+   font-family: 'Open Sans';
+   font-display: swap;
+   font-style: normal;
+   font-weight: 700;
+   src: url('../fonts/open-sans-v29-latin_cyrillic-700.woff2') format('woff2'),
+   url('../fonts/open-sans-v29-latin_cyrillic-700.woff') format('woff');
+}
+
+/* STARTER CODES */
+
+html {
+   scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+}
+
+main {
+   flex-grow: 1;
+}
+
+img {
+   vertical-align: middle;
+}
+
+ul, ol {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+   font-weight: 700;
+   color: #000000;
+}
+
+p {
+   margin: 0;
+   color: #000000;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+/* HEADER START */
+
+.header {
+   background-color: #fff;
+   box-shadow: 0 5px 10px 0 #EEEEEE;
+}
+
+.header-container {
+   display: flex;
+   align-items: center;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+.header-logo {
+   margin-right: 321px;
+}
+
+.header-logo-img {
+   display: block;
+}
+
+.header-list {
+   display: flex;
+   align-items: center;
+   margin-right: 7px;
+}
+
+.header-item {
+
+}
+
+.header-item-link {
+   font-size: 15px;
+   line-height: 24px;
+   color: #000000;
+   text-decoration: none;
+   padding-bottom: 16px;
+   text-decoration: none;
+   padding: 16px;
+   transition: all 0.2s ease;
+}
+
+.header-item-link:hover {
+   border-bottom: 3px solid #191919;
+}
+
+.header-item-link:active {
+   background: rgba(25, 25, 25, 0.7);
+   color: #fff;
+}
+
+.header-number-link {
+   font-size: 15px;
+   transition: all 0.2s ease;
+}
+
+.header-number-link:hover {
+   color: #00BAFC;
+   background-color: #fff;
+   box-shadow: inset 0 0 0 3px #00BAFC;
+}
+
+.header-number-link:active {
+   color: #fff;
+   background-color: rgba(0, 186, 252, 0.6);
+   box-shadow: none;
+}
+
+.link {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   color: #FFFFFF;
+   background: #00BAFC;
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 8px 16px;
+}
