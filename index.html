@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./main.min.css">
    <title>Pixer</title>
 </head>
 <body>
@@ -114,7 +114,7 @@
                </ul>
                
                <div class="services-link-wrapper">
-                  <button class="link services-btn">Buyurtma berish</button>
+                  <a class="link services-link" href="#">Buyurtma berish</a>
                   <a class="services-link2" href="#">Xizmatlar sahifasiga o’tish</a>
                </div>
             </div>
@@ -191,9 +191,9 @@
                   </p>
                </div>
                <form class="order-form" action="https://echo.htmlacademy.ru/" method="Post" autocomplete="off">
-                  <input class="order-input" type="text" name="Foydalanuvchining tel raqami" placeholder="Ismingiz" aria-label="Ismingizi kiriting" required>
+                  <input class="order-input" type="text" name="Foydalanuvchining ismi" placeholder="Ismingiz" aria-label="Ismingizi kiriting" required>
                   
-                  <input class="order-input" type="tel" name="Foydalanuvchining ismi" placeholder="Telefon raqamingiz" aria-label="Telefon raqamingizni kiriting" required>
+                  <input class="order-input" type="tel" name="Foydalanuvchining tel raqami" placeholder="Telefon raqamingiz" aria-label="Telefon raqamingizni kiriting" required>
                   
                   <select name="Xizmat turi" class="order-select" required>
                      <option value="" selected disabled hidden>Xizmat turi</option>
@@ -203,12 +203,46 @@
                      <option value="Grafik dizayn">Grafik dizayn</option>
                      <option value="CRM">CRM</option>
                   </select>
-
+                  
                   <button type="submit" class="link form-btn">Buyurtma berish</button>
                </form>  
             </div>
          </div>
       </section>
    </main>
+   
+   <footer class="footer">
+      <div class="container">
+         <div class="footer-wrapper">
+            <div class="footer-copyright">
+               <strong class="footer-strong">Copyright 2020</strong>
+               <p class="footer-text">
+                  Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.
+               </p>
+            </div>
+            
+            <div class="footer-sahifalar">
+               <strong class="footer-strong">Sayt sahifalari</strong>
+               <ul class="footer-list">
+                  <li class="footer-item"><a class="footer-link" href="#">Bosh sahifa</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Xizmatlar</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Portfolio</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Jamoa</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
+                  <li class="footer-item"><a class="footer-link" href="#">Kontaktlar</a></li>
+               </ul>
+            </div>
+            
+            <div class="footer-internet">
+               <strong class="footer-strong">Biz internetda</strong>
+               <ul class="footer-list">
+                  <li class="footer-item"><a class="footer-item-link" href="https://desktop.telegram.org/">Telegram</a></li>
+                  <li class="footer-item"><a class="footer-item-link" href="https://www.facebook.com/">Facebook</a></li>
+                  <li class="footer-item"><a class="footer-item-link" href="https://www.instagram.com/">Instagram</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </footer>
 </body>
 </html>
