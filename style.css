@@ -315,7 +315,7 @@ ul, ol {
 }
 
 .services-link-wrapper {
-
+   
 }
 
 .services-link {
@@ -324,4 +324,98 @@ ul, ol {
 
 .services-link2 {
    color: var(--blue);
+}
+
+/* TEAM START */
+
+.team {
+   padding-top: 56px;
+   padding-bottom: 56px;
+}
+
+.team-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.team-text-wrapper {
+   width: 719px;
+   margin-bottom: 16px;
+}
+
+.team-heading {
+   font-size: 24px;
+   line-height: 130%;
+   margin: 0;
+   margin-bottom: 16px;
+}
+
+.team-text {
+   margin: 0;
+   line-height: 24px;
+}
+
+.team-list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 48px;
+}
+
+.team-item {
+   display: flex;
+   align-items: center;
+   text-align: left;
+}
+
+.team-item::before {
+   content: "";
+   display: inline-block;
+   width: 300px;
+   height: 278px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+} 
+.team-item:nth-child(1):before {
+   background-image: url("./images/talablar.svg");
+} 
+
+.team-item:nth-child(2):before {
+   background-image: url("./images/yechimlar.svg");
+} 
+
+.team-item:nth-child(3):before {
+   background-image: url("./images/vaqt.svg");
+} 
+
+.team-item:nth-child(4):before {
+   background-image: url("./images/sifat.svg");
+} 
+
+.team-item:nth-child(5):before {
+   background-image: url("./images/motivatsiya.svg");
+} 
+
+.team-item:nth-child(2n) {
+   flex-direction: row-reverse;
+}
+
+.team-item-text-wrapper {
+   width: 500px;
+   margin-left: 32px;
+}
+
+.team-item-heading {
+   font-size: 20px;
+   line-height: 130%;
+   margin: 0;
+   margin-bottom: 8px;
+}
+
+.team-item-text {
+   line-height: 24px;
+   margin: 0;
 }
