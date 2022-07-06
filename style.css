@@ -163,7 +163,7 @@ ul, ol {
    background-color: rgba(0, 186, 252, 0.8);
 }
 
-.link:hover {
+.link:active {
    background-color: rgba(0, 186, 252, 0.6);
 }
 
@@ -248,7 +248,7 @@ ul, ol {
    justify-content: center;
    flex-wrap: wrap;
    gap: 67px;
-   margin-bottom: 40px;   
+   margin-bottom: 40px;
 }
 
 .services-item {
@@ -318,8 +318,9 @@ ul, ol {
    
 }
 
-.services-link {
+.services-btn {
    margin-right: 16px;
+   border: none;
 }
 
 .services-link2 {
@@ -418,4 +419,67 @@ ul, ol {
 .team-item-text {
    line-height: 24px;
    margin: 0;
+}
+
+/* ORDER START */
+
+.order {
+   padding-top: 56px;
+   padding-bottom: 56px;
+   background-color: var(--blue);
+}
+
+.order-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.order-text-wrapper {
+   width: 719px;
+   margin-bottom: 16px;
+}
+
+.order-heading {
+   font-size: 24px;
+   line-height: 130%;
+   color: var(--white);
+   margin: 0;
+   margin-bottom: 16px;
+}
+
+.order-text {
+   margin: 0;
+   line-height: 150%;
+   color: var(--white);
+}
+
+.order-form {
+   width: 348px;
+   background-color: var(--white);
+   padding: 24px;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+}
+
+.order-input {
+   padding: 16px;
+   width: 100%;
+}
+
+.order-select {
+   padding: 16px;
+   width: 100%;
+   appearance: none;
+   background-image: url("./images/form-arrow.svg");
+   background-repeat: no-repeat;
+   background-position: calc(95%);
+}
+
+.form-btn {
+   border: none;
 }
