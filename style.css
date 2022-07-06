@@ -79,7 +79,7 @@ ul, ol {
    box-shadow: 0 5px 10px 0 #EEEEEE;
 }
 
-.header-container {
+.header-wrapper {
    display: flex;
    align-items: center;
    padding-top: 8px;
@@ -101,7 +101,7 @@ ul, ol {
 }
 
 .header-item {
-
+   
 }
 
 .header-item-link {
@@ -127,6 +127,13 @@ ul, ol {
 .header-number-link {
    font-size: 15px;
    transition: all 0.2s ease;
+   font-weight: 700;
+   line-height: 24px;
+   color: var(--white);
+   background: var(--blue);
+   border-radius: 5px;
+   text-decoration: none;
+   padding: 8px 16px;
 }
 
 .header-number-link:hover {
@@ -152,21 +159,28 @@ ul, ol {
    padding: 8px 16px;
 }
 
+.link:hover {
+   background-color: rgba(0, 186, 252, 0.8);
+}
+
+.link:hover {
+   background-color: rgba(0, 186, 252, 0.6);
+}
+
 /* ============= MAIN START =============== */
 
 /* HERO START */
 
 .main {
-
+   
 }
 
 .hero {
-
-}
-
-.hero-container {
    padding-top: 80px;
    padding-bottom: 80px;
+}
+
+.hero-wrapper {
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -179,20 +193,14 @@ ul, ol {
 .hero-heading {
    font-size: 30px;
    line-height: 130%;
+   margin: 0;
    margin-bottom: 16px;
 }
 
 .hero-text {
    line-height: 24px;
+   margin: 0;
    margin-bottom: 20px;
-}
-
-.hero-link:hover {
-   background-color: rgba(0, 186, 252, 0.8);
-}
-
-.hero-link:active {
-   background-color: rgba(0, 186, 252, 0.6);
 }
 
 .hero-right {
