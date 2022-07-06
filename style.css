@@ -210,3 +210,118 @@ ul, ol {
    border: 0;
    border-radius: 5px;
 }
+
+/* SERVICES START */
+
+.services {
+   padding-top: 56px;
+   padding-bottom: 56px;
+}
+
+.services-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.services-text-wrapper {
+   width: 719px;
+   margin-bottom: 16px;
+}
+
+.services-heading {
+   font-size: 24px;
+   line-height: 130%;
+   margin: 0;
+   margin-bottom: 16px;
+}
+
+.services-text {
+   margin: 0;
+   line-height: 24px;
+}
+
+.services-list {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 67px;
+   margin-bottom: 40px;   
+}
+
+.services-item {
+   padding: 24px;
+   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+}
+
+.services-item:hover {
+   box-shadow: 0px 12px 21px rgba(0, 0, 0, 0.1);
+}
+
+.services-item:active {
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.services-item-link {
+   text-decoration: none;
+   color: #000000;
+}
+
+.services-item-link::before {
+   content: "";
+   display: inline-block;
+   width: 222px;
+   height: 130px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   margin-bottom: 16px;
+   
+}
+
+.services-item:nth-child(1) .services-item-link::before {
+   background-image: url("./images/vebsayt.svg");
+}
+
+.services-item:nth-child(2) .services-item-link::before {
+   background-image: url("./images/telegram.svg");
+}
+
+.services-item:nth-child(3) .services-item-link::before {
+   background-image: url("./images/smm.svg");
+}
+
+.services-item:nth-child(4) .services-item-link::before {
+   background-image: url("./images/grafik.svg");
+}
+
+.services-item:nth-child(5) .services-item-link::before {
+   background-image: url("./images/crm.svg");
+}
+
+.services-item-heading {
+   font-size: 20px;
+   line-height: 130%;
+   margin: 0;
+   margin-bottom: 16px;
+}
+
+.services-item-text {
+   ine-height: 24px;
+   margin: 0;
+}
+
+.services-link-wrapper {
+   
+}
+
+.services-link {
+   margin-right: 16px;
+}
+
+.services-link2 {
+   color: var(--blue);
+}
