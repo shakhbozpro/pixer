@@ -86,6 +86,8 @@ ul, ol {
 /* HEADER START */
 
 .header {
+   position: fixed;
+   width: 100%;
    background-color: var(--white);
    -webkit-box-shadow: 0 5px 10px 0 #EEEEEE;
            box-shadow: 0 5px 10px 0 #EEEEEE;
@@ -236,7 +238,7 @@ ul, ol {
 /* HERO START */
 
 .hero {
-   padding-top: 80px;
+   padding-top: 136px;
    padding-bottom: 80px;
 }
 
